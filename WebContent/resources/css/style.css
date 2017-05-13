@@ -1,0 +1,142 @@
+footer {
+	  background-color: #f2f2f2;
+      padding: 5px;
+    }
+
+.container {
+	
+	
+    margin-left: 10%;
+    margin-top: 22%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+	
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  
+  float:left;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+	
+   text-align: center;
+   
+}
+.container .info h1 {
+ 
+  padding: 0;
+  font-size: 60px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+
+
+/* Form */
+
+
+.form {
+  position: relative;
+  z-index: 1;
+  margin-top: 10%;
+  margin-bottom: 0px;
+    margin-right: 10%;
+     margin-left: 10%;     
+  background: rgba(218, 218, 220, 0.64);
+  max-width: 300px;
+  padding: 30px;
+  text-align: center;
+  float:right;
+}
+.form .thumbnail {
+	 	
+  background: #c0c0c0;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  padding: 50px 30px;
+  padding-top: 42px;
+  padding-left: 42px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: border-box;
+}
+.form .thumbnail img {
+	
+   height: 70px;
+  width: 88%;
+  display: block;
+
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form .button {
+  outline: 0;
+  background: #747474;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #5c5c5c;
+  font-size: 12px;
+}
+.form .message a {
+  color: #000000;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+
+
+/* END Form */
+/* Demo Purposes */
+body {
+	
+  background: #000;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
